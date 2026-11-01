@@ -306,7 +306,7 @@ Please avoid reporting issues without sufficient information to reproduce them.
 
 Dynamic ShopGUI+ is an open-source project.
 
-See the repository's `LICENSE` file for licensing terms.
+See the repository's [MIT LICENSE](https://github.com/itzlynx-197/Dynamic-ShopGUI-/blob/main/LICENSE) file for licensing terms.
 
 ---
 
