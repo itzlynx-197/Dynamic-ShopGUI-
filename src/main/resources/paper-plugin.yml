@@ -1,4 +1,4 @@
-name: DynamicShopGUI+
+name: DynamicShopGUIPlus
 version: "${version}"
 main: com.silicon_studios.dynamic_shopgui_plus.DynamicShopGUIPlus
 description: A dynamic in-game shop GUI plugin
