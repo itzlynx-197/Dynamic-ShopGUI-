@@ -1,0 +1,6 @@
+enable: true
+slot: 1
+title: "&b&lTools"
+item:
+  material: DIAMOND_PICKAXE
+  name: "&b&lTools"sub-section: true

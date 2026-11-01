@@ -1,0 +1,6 @@
+enable: true
+slot: 9
+title: "&6&lStorage"
+item:
+  material: CHEST
+  name: "&6&lStorage"

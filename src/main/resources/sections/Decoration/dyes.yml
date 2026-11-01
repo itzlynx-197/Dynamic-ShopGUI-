@@ -1,0 +1,6 @@
+enable: true
+slot: 2
+title: "&b&lDyes"
+item:
+  material: WHITE_DYE
+  name: "&b&lDyes"sub-section: true

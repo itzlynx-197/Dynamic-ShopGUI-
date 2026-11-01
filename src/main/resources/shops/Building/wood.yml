@@ -1,0 +1,144 @@
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: OAK_LOG
+        buy: 4
+        sell: 2
+      '2':
+        material: OAK_PLANKS
+        buy: 1
+        sell: 0.5
+      '3':
+        material: OAK_SLAB
+        buy: 1
+        sell: 0.5
+      '4':
+        material: OAK_STAIRS
+        buy: 2
+        sell: 1
+      '5':
+        material: OAK_FENCE
+        buy: 2
+        sell: 1
+      '6':
+        material: OAK_FENCE_GATE
+        buy: 3
+        sell: 1.5
+      '7':
+        material: OAK_DOOR
+        buy: 3
+        sell: 1.5
+      '8':
+        material: OAK_TRAPDOOR
+        buy: 2
+        sell: 1
+      '9':
+        material: OAK_PRESSURE_PLATE
+        buy: 1
+        sell: 0.5
+      '10':
+        material: OAK_BUTTON
+        buy: 1
+        sell: 0.5
+      '11':
+        material: SPRUCE_LOG
+        buy: 4
+        sell: 2
+      '12':
+        material: SPRUCE_PLANKS
+        buy: 1
+        sell: 0.5
+      '13':
+        material: BIRCH_LOG
+        buy: 4
+        sell: 2
+      '14':
+        material: BIRCH_PLANKS
+        buy: 1
+        sell: 0.5
+      '15':
+        material: JUNGLE_LOG
+        buy: 4
+        sell: 2
+      '16':
+        material: JUNGLE_PLANKS
+        buy: 1
+        sell: 0.5
+      '17':
+        material: ACACIA_LOG
+        buy: 4
+        sell: 2
+      '18':
+        material: ACACIA_PLANKS
+        buy: 1
+        sell: 0.5
+      '19':
+        material: DARK_OAK_LOG
+        buy: 4
+        sell: 2
+      '20':
+        material: DARK_OAK_PLANKS
+        buy: 1
+        sell: 0.5
+      '21':
+        material: MANGROVE_LOG
+        buy: 4
+        sell: 2
+      '22':
+        material: MANGROVE_PLANKS
+        buy: 1
+        sell: 0.5
+      '23':
+        material: CHERRY_LOG
+        buy: 4
+        sell: 2
+      '24':
+        material: CHERRY_PLANKS
+        buy: 1
+        sell: 0.5
+      '25':
+        material: BAMBOO
+        buy: 2
+        sell: 1
+      '26':
+        material: BAMBOO_BLOCK
+        buy: 4
+        sell: 2
+      '27':
+        material: STRIPPED_OAK_LOG
+        buy: 4
+        sell: 2
+      '28':
+        material: STRIPPED_SPRUCE_LOG
+        buy: 4
+        sell: 2
+      '29':
+        material: STRIPPED_BIRCH_LOG
+        buy: 4
+        sell: 2
+      '30':
+        material: STRIPPED_JUNGLE_LOG
+        buy: 4
+        sell: 2
+      '31':
+        material: STRIPPED_ACACIA_LOG
+        buy: 4
+        sell: 2
+      '32':
+        material: STRIPPED_DARK_OAK_LOG
+        buy: 4
+        sell: 2
+      '33':
+        material: STRIPPED_MANGROVE_LOG
+        buy: 4
+        sell: 2
+      '34':
+        material: STRIPPED_CHERRY_LOG
+        buy: 4
+        sell: 2
+      '35':
+        material: STRIPPED_BAMBOO_BLOCK
+        buy: 4
+        sell: 2

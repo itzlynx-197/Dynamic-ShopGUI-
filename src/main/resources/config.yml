@@ -1,0 +1,435 @@
+#================================================================================
+#                        Dynamic ShopGUI+ Configuration
+#================================================================================
+# This file controls all aspects of the Dynamic ShopGUI+ plugin.
+# More information: https://github.com/Silicon-Studios/Dynamic-ShopGUI-Plus
+#================================================================================
+
+config-version: 1.0.0
+
+#================================================================================
+#                              GENERAL SETTINGS
+#================================================================================
+
+# The locale used to format currencies (BCP 47 language tag).
+# Examples: 'en-US', 'en-GB', 'de-DE', 'fr-FR', 'nl-NL'
+locale: en-US
+
+# Currency format pattern. Use # for digits, 0 for forced digits, , for thousands separator.
+currency-format: "#,##0.00"
+
+# Automatically check for plugin updates on startup.
+update-checking: true
+
+# Enable debug mode. Logs additional information to the console.
+# Disable in production for cleaner logs.
+debug: false
+
+# Use NMS (Net Minecraft Server) for item loading and inventory opening.
+# Provides ~2x performance improvement. Disable only if experiencing compatibility issues.
+use-nms: true
+
+# Use Paper API for item display and inventory creation (Paper 1.21.3+).
+# Enables advanced MiniMessage formatting in titles and item names/lore.
+use-paper-meta: true
+
+#================================================================================
+#                            TRANSACTION SETTINGS
+#================================================================================
+
+# Log transactions to a text file (legacy). Disabled by default.
+# Modern transaction logging uses the SQLite database (see advanced-transaction-log).
+transaction-log: false
+
+# Store transaction history in a SQLite database.
+# Required for transaction placeholders and future features.
+# Recommended: keep enabled.
+advanced-transaction-log: true
+
+# Cache period for transaction placeholders (in seconds).
+placeholders:
+  transaction-cache: 60
+
+#================================================================================
+#                            SHOP STANDS
+#================================================================================
+
+# ShopStands allow physical stands to be placed as blocks.
+# Players can right/left-click to purchase items.
+# This is a separate module - when disabled, all related listeners are unregistered.
+shop-stands:
+  enable: false
+  holograms: true
+
+#================================================================================
+#                            WORLD RESTRICTIONS
+#================================================================================
+
+# Enable or disable commands in specific worlds.
+enable-disabled-worlds: false
+
+# List of commands with disabled worlds.
+# Each command has its own list of worlds where it will be disabled.
+disabled-worlds-per-command:
+  shop: []
+  sellall: []
+  editshop: []
+
+#================================================================================
+#                            ECONOMY
+#================================================================================
+
+# Economy provider to use.
+# Supported: VAULT (requires Vault + economy plugin like Essentials/CMI)
+economy-provider: VAULT
+
+# Currency display formats per economy type.
+# Customize how currency is displayed in messages and lore.
+currency-formats:
+  vault:
+    singular: "%currency-symbol%"
+    plural: "%currency-symbol%"
+    friendly: "money"
+
+#================================================================================
+#                            SPAWNER PROVIDER
+#================================================================================
+
+# Spawner provider to use.
+# AUTO = auto-detect installed provider
+# Options: AUTO, DEFAULT, DISABLED, SILKSPAWNERS, SILKSPAWNERSV2, WILDSTACKER,
+#          ULTIMATESTACKER, ROSESTACKER, MINEABLESPAWNERS, SPAWNERMETA,
+#          SPAWNERLEGACY, SMARTSPAWNER, PURPUR
+spawner-provider: AUTO
+
+# Spawner behavior settings.
+enable-spawnerbreak: true
+enable-spawnerplace: true
+allow-spawner-type-change: false
+player-placed-spawners-drop-exp: false
+only-mine-plugin-spawners: false
+
+# Tools allowed to break spawners (with required enchantments).
+spawner-break-tools:
+  '1':
+    material: DIAMOND_PICKAXE
+    enchantments:
+      - SILK_TOUCH
+  '2':
+    material: IRON_PICKAXE
+    enchantments:
+      - SILK_TOUCH
+      - EFFICIENCY:1
+  '3':
+    material: NETHERITE_PICKAXE
+    enchantments:
+      - SILK_TOUCH
+
+#================================================================================
+#                            INTEGRATIONS
+#================================================================================
+
+# DiscordSRV hook for logging transactions to Discord.
+enable-discordsrv-hook: false
+
+# Quest provider for item requirements.
+# Supported: Quests, BeautyQuests, BetonQuest
+# Enabled automatically when items have QUEST requirements.
+
+# Region provider for item requirements.
+# Supported: WorldGuard
+# Enabled automatically when items have REGION requirements.
+
+# RealisticSeasons integration for seasonal pricing.
+# Configure season-price-modifiers below.
+
+#================================================================================
+#                            PLAYER SETTINGS
+#================================================================================
+
+# Log player transactions to console.
+log-player-transactions: true
+
+# Send on-screen title with transaction price.
+on-screen-title: true
+
+# Drop remaining items on ground when inventory is full during purchase.
+# Warning: Can cause lag if players buy excessive amounts.
+drop-remaining-items-on-ground: false
+
+# Sell shulker box contents when selling items.
+sell-shulker-boxes: true
+
+# Gamemodes where shop usage is banned.
+banned-gamemodes:
+  - CREATIVE
+  - SPECTATOR
+
+# Use item display name instead of material name in messages.
+use-item-name: true
+
+#================================================================================
+#                            BEDROCK / GEYSER
+#================================================================================
+
+# Bedrock forms for Floodgate/Geyser players.
+bedrock-forms:
+  enable: true
+  use-grid-forms: false
+  only-enable-for-touch-devices: false
+  use-double-click-for-touch-devices: true
+  item-ids:
+    cache: 48
+    geyser-palette-version: ""
+    force-update: false
+
+# Resize GUIs for bedrock players.
+resize-gui-for-bedrock: true
+
+# Enable textured player heads for bedrock players.
+pre-register-skulls: false
+
+# Custom player profile item for bedrock players.
+custom-bedrock-player-profile:
+  enabled: true
+  item:
+    material: SUNFLOWER
+    name: "%player_displayname%"
+    lore:
+      - "%translations-money%: &c%player_balance%"
+
+#================================================================================
+#                            GUI SETTINGS
+#================================================================================
+
+# Delay between clicks in GUIs (milliseconds).
+click-cooldown: 125
+
+# Open previous menu when pressing escape.
+escape-back: false
+
+# Main shop menu configuration.
+main-menu:
+  gui-rows: 6
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    enable: true
+
+# Click actions for shop items.
+click-mappings:
+  BUY: LEFT
+  SELL: RIGHT
+  SELL_ALL: SHIFT_RIGHT
+
+# Allow renamed items to be sold.
+allow-renamed-items: true
+
+# Allow items with lore to be sold.
+allow-lore-items: true
+
+# Match item meta when selling.
+match-item-meta: true
+
+# Sort items by.
+sort-items-by: DESCENDING_SELL_PRICE
+
+# Allow unsafe enchantments on shop items.
+allow-unsafe-enchants: true
+
+# Allow illegal stacks.
+allow-illegal-stacks: true
+
+# Enable shift-right-click to sell all.
+shift-right-click-sell-all: true
+
+# Allow enchanted variants of items.
+enchanted-variants: false
+
+# Damaged items handling.
+damaged-items:
+  enabled: true
+  price-difference: 0.85
+
+# Maximum number of shop pages.
+max-shop-pages: 50
+
+#================================================================================
+#                            SEASONAL PRICING
+#================================================================================
+
+# Enable seasonal price modifiers (requires RealisticSeasons).
+enable-seasonal-pricing: false
+
+# Price modifiers per season. Use +X% or -X% format.
+# 'all' applies to all items in the section.
+# Specific paths: page1:items:6
+season-price-modifiers:
+  Spring:
+    Dyes:
+      all: "-50%"
+  Summer:
+    Farming:
+      all: "+35%"
+  Fall:
+    Spawners:
+      page1:items:20: "-50%"
+  Winter:
+    Farming:
+      all: "-20%"
+
+# Seasonal lore icons.
+seasonal-lore:
+  enabled: true
+  Summer:
+    icon: "&e&l☀"
+  Spring:
+    icon: "&6&l☘"
+  Fall:
+    icon: "&c☔"
+  Winter:
+    icon: "&b&l❄"
+
+#================================================================================
+#                            DISCOUNTS
+#================================================================================
+
+# Enable permission-based discounts on buy prices.
+enable-discounts: false
+
+# Discount percentages per section and permission group.
+discounts:
+  Blocks:
+    vip: 20
+    gold: 5
+  all:
+    coal: 2.5
+
+#================================================================================
+#                            SELL MULTIPLIERS
+#================================================================================
+
+# Enable permission-based sell price multipliers.
+enable-sell-multipliers: false
+
+# Multiplier percentages per section and permission group.
+sell-multipliers:
+  all:
+    vip: 20
+    gold: 2.5
+  Spawners:
+    gold: 12.5
+
+#================================================================================
+#                            COMMANDS
+#================================================================================
+
+# Enable or disable individual commands.
+commands:
+  shop: true
+  sellall: true
+  sreload: true
+  editshop: true
+  sellgui: true
+  shopgive: true
+  shopmigrate: true
+
+# Command aliases.
+shop-commands:
+  - shop
+  - market
+sellall-commands:
+  - sellall
+sellgui-commands:
+  - sellgui
+
+# Override Essentials /sell command.
+override-sell-command: true
+
+# Use old /sellall command format.
+old-sellall-command: false
+
+#================================================================================
+#                            BACK BUTTON
+#================================================================================
+
+# Disable back button in specific contexts.
+disable-back:
+  direct-shop-command: false
+  direct-shop-command-console: false
+  sub-sections: false
+
+#================================================================================
+#                            LEVEL EVENTS
+#================================================================================
+
+# Enable money rewards on level up.
+enable-joinmessage: false
+enable-levelevent: false
+leveleventmoney5/10/15: 10
+leveleventmoney20/25/30: 50
+
+#================================================================================
+#                            PROXY & SHARED STORAGE
+#================================================================================
+
+# Enable proxy/network mode for multi-server setups.
+# When disabled (default), the plugin uses standalone local storage.
+# When enabled, all participating backend servers connect to the same MySQL
+# database and share shop data, prices, and configuration.
+#
+# Every backend must use identical shared-storage settings.
+# There is no designated master server.
+proxy: false
+
+# Only used when proxy is enabled.
+shared-storage:
+  mysql:
+    # MySQL server hostname or IP address.
+    host: localhost
+
+    # MySQL server port (default: 3306).
+    port: 3306
+
+    # Database name. Must be created before enabling proxy mode.
+    database: dynamicshop
+
+    # Dedicated database user with appropriate permissions.
+    username: dynamicshop
+
+    # Password for the database user.
+    password: "change-me"
+
+    # Enable SSL for database connections.
+    use-ssl: false
+
+    # Connection pool settings.
+    connection-pool:
+      maximum-size: 5
+      minimum-idle: 1
+      connection-timeout: 5000
+
+    # Synchronization settings.
+    synchronization:
+      enabled: true
+      interval: 2000
+
+#================================================================================
+#                            DYNAMIC PRICING
+#================================================================================
+
+# Supply-and-demand pricing. Prices adjust based on player transactions.
+dynamic-pricing:
+  enabled: false
+  sensitivity: 0.001
+  min-multiplier: 0.5
+  max-multiplier: 2.0
+  decay-amount: 0.05
+
+#================================================================================
+#                            STOCK LIMITS
+#================================================================================
+
+# Per-player or global transaction limits.
+# Configure per-item in shop files using stock-limits key.
+stock-limits: {}

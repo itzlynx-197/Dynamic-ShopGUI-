@@ -1,0 +1,6 @@
+enable: true
+slot: 2
+title: "&d&lPotions"
+item:
+  material: POTION
+  name: "&d&lPotions"sub-section: true

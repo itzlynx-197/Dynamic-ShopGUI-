@@ -1,0 +1,6 @@
+enable: true
+slot: 2
+title: "&6&lFood"
+item:
+  material: BREAD
+  name: "&6&lFood"sub-section: true

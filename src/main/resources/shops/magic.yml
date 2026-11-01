@@ -1,0 +1,24 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: ENCHANTING_TABLE
+        section: enchanting
+        displayname: "&5&lEnchanting"
+        slot: 10
+      '2':
+        material: POTION
+        section: potions
+        displayname: "&d&lPotions"
+        slot: 11
+      '3':
+        material: ENCHANTED_BOOK
+        section: enchantment_books
+        displayname: "&5&lEnchantment Books"
+        slot: 12
+      '4':
+        material: POTION
+        section: potion_variants
+        displayname: "&d&lPotion Variants"
+        slot: 13

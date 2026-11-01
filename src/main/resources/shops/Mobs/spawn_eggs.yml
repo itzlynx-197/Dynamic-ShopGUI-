@@ -1,0 +1,152 @@
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: ZOMBIE_SPAWN_EGG
+        buy: 25
+        sell: 12.5
+      '2':
+        material: SKELETON_SPAWN_EGG
+        buy: 25
+        sell: 12.5
+      '3':
+        material: CREEPER_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '4':
+        material: SPIDER_SPAWN_EGG
+        buy: 20
+        sell: 10
+      '5':
+        material: ENDERMAN_SPAWN_EGG
+        buy: 40
+        sell: 20
+      '6':
+        material: BLAZE_SPAWN_EGG
+        buy: 35
+        sell: 17.5
+      '7':
+        material: WITHER_SKELETON_SPAWN_EGG
+        buy: 50
+        sell: 25
+      '8':
+        material: PIGLIN_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '9':
+        material: HOGLIN_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '10':
+        material: ZOGLIN_SPAWN_EGG
+        buy: 35
+        sell: 17.5
+      '11':
+        material: GHAST_SPAWN_EGG
+        buy: 40
+        sell: 20
+      '12':
+        material: SLIME_SPAWN_EGG
+        buy: 20
+        sell: 10
+      '13':
+        material: MAGMA_CUBE_SPAWN_EGG
+        buy: 25
+        sell: 12.5
+      '14':
+        material: PHANTOM_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '15':
+        material: DROWNED_SPAWN_EGG
+        buy: 25
+        sell: 12.5
+      '16':
+        material: GUARDIAN_SPAWN_EGG
+        buy: 35
+        sell: 17.5
+      '17':
+        material: ELDER_GUARDIAN_SPAWN_EGG
+        buy: 100
+        sell: 50
+      '18':
+        material: SHULKER_SPAWN_EGG
+        buy: 40
+        sell: 20
+      '19':
+        material: SILVERFISH_SPAWN_EGG
+        buy: 15
+        sell: 7.5
+      '20':
+        material: ENDERMITE_SPAWN_EGG
+        buy: 15
+        sell: 7.5
+      '21':
+        material: WITCH_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '22':
+        material: VINDICATOR_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '23':
+        material: PILLAGER_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '24':
+        material: RAVAGER_SPAWN_EGG
+        buy: 50
+        sell: 25
+      '25':
+        material: EVOKER_SPAWN_EGG
+        buy: 40
+        sell: 20
+      '26':
+        material: VEX_SPAWN_EGG
+        buy: 25
+        sell: 12.5
+      '27':
+        material: ALLAY_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '28':
+        material: WARDEN_SPAWN_EGG
+        buy: 200
+        sell: 100
+      '29':
+        material: FROG_SPAWN_EGG
+        buy: 20
+        sell: 10
+      '30':
+        material: TADPOLE_SPAWN_EGG
+        buy: 15
+        sell: 7.5
+      '31':
+        material: AXOLOTL_SPAWN_EGG
+        buy: 25
+        sell: 12.5
+      '32':
+        material: GOAT_SPAWN_EGG
+        buy: 20
+        sell: 10
+      '33':
+        material: CAMEL_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '34':
+        material: SNIFFER_SPAWN_EGG
+        buy: 40
+        sell: 20
+      '35':
+        material: ARMADILLO_SPAWN_EGG
+        buy: 20
+        sell: 10
+      '36':
+        material: BREEZE_SPAWN_EGG
+        buy: 30
+        sell: 15
+      '37':
+        material: BOGGED_SPAWN_EGG
+        buy: 25
+        sell: 12.5

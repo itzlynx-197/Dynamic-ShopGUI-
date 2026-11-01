@@ -1,0 +1,6 @@
+enable: true
+slot: 2
+title: "&e&lSpawn Eggs"
+item:
+  material: ZOMBIE_SPAWN_EGG
+  name: "&e&lSpawn Eggs"sub-section: true

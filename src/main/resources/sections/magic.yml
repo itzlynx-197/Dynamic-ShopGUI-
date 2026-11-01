@@ -1,0 +1,6 @@
+enable: true
+slot: 5
+title: "&5&lMagic"
+item:
+  material: ENCHANTING_TABLE
+  name: "&5&lMagic"

@@ -1,0 +1,184 @@
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: STONE
+        buy: 1
+        sell: 0.5
+      '2':
+        material: COBBLESTONE
+        buy: 0.5
+        sell: 0.25
+      '3':
+        material: STONE_BRICKS
+        buy: 1.5
+        sell: 0.75
+      '4':
+        material: MOSSY_STONE_BRICKS
+        buy: 2
+        sell: 1
+      '5':
+        material: CRACKED_STONE_BRICKS
+        buy: 1.5
+        sell: 0.75
+      '6':
+        material: CHISELED_STONE_BRICKS
+        buy: 2
+        sell: 1
+      '7':
+        material: SMOOTH_STONE
+        buy: 1
+        sell: 0.5
+      '8':
+        material: GRANITE
+        buy: 1
+        sell: 0.5
+      '9':
+        material: POLISHED_GRANITE
+        buy: 1.5
+        sell: 0.75
+      '10':
+        material: DIORITE
+        buy: 1
+        sell: 0.5
+      '11':
+        material: POLISHED_DIORITE
+        buy: 1.5
+        sell: 0.75
+      '12':
+        material: ANDESITE
+        buy: 1
+        sell: 0.5
+      '13':
+        material: POLISHED_ANDESITE
+        buy: 1.5
+        sell: 0.75
+      '14':
+        material: DEEPSLATE
+        buy: 2
+        sell: 1
+      '15':
+        material: COBBLED_DEEPSLATE
+        buy: 1.5
+        sell: 0.75
+      '16':
+        material: POLISHED_DEEPSLATE
+        buy: 2
+        sell: 1
+      '17':
+        material: DEEPSLATE_BRICKS
+        buy: 2.5
+        sell: 1.25
+      '18':
+        material: DEEPSLATE_TILES
+        buy: 2.5
+        sell: 1.25
+      '19':
+        material: TUFF
+        buy: 1
+        sell: 0.5
+      '20':
+        material: CALCITE
+        buy: 1
+        sell: 0.5
+      '21':
+        material: DRIPSTONE_BLOCK
+        buy: 1
+        sell: 0.5
+      '22':
+        material: BRICKS
+        buy: 2
+        sell: 1
+      '23':
+        material: MUD_BRICKS
+        buy: 1.5
+        sell: 0.75
+      '24':
+        material: SANDSTONE
+        buy: 1
+        sell: 0.5
+      '25':
+        material: CUT_SANDSTONE
+        buy: 1.5
+        sell: 0.75
+      '26':
+        material: SMOOTH_SANDSTONE
+        buy: 1.5
+        sell: 0.75
+      '27':
+        material: RED_SANDSTONE
+        buy: 1
+        sell: 0.5
+      '28':
+        material: CUT_RED_SANDSTONE
+        buy: 1.5
+        sell: 0.75
+      '29':
+        material: SMOOTH_RED_SANDSTONE
+        buy: 1.5
+        sell: 0.75
+      '30':
+        material: QUARTZ_BLOCK
+        buy: 3
+        sell: 1.5
+      '31':
+        material: QUARTZ_BRICKS
+        buy: 3.5
+        sell: 1.75
+      '32':
+        material: SMOOTH_QUARTZ
+        buy: 3
+        sell: 1.5
+      '33':
+        material: PRISMARINE
+        buy: 3
+        sell: 1.5
+      '34':
+        material: PRISMARINE_BRICKS
+        buy: 3.5
+        sell: 1.75
+      '35':
+        material: DARK_PRISMARINE
+        buy: 3.5
+        sell: 1.75
+      '36':
+        material: NETHERRACK
+        buy: 0.5
+        sell: 0.25
+      '37':
+        material: NETHER_BRICKS
+        buy: 2
+        sell: 1
+      '38':
+        material: RED_NETHER_BRICKS
+        buy: 2.5
+        sell: 1.25
+      '39':
+        material: BLACKSTONE
+        buy: 1
+        sell: 0.5
+      '40':
+        material: POLISHED_BLACKSTONE
+        buy: 1.5
+        sell: 0.75
+      '41':
+        material: POLISHED_BLACKSTONE_BRICKS
+        buy: 2
+        sell: 1
+      '42':
+        material: END_STONE
+        buy: 2
+        sell: 1
+      '43':
+        material: END_STONE_BRICKS
+        buy: 2.5
+        sell: 1.25
+      '44':
+        material: PURPUR_BLOCK
+        buy: 3
+        sell: 1.5
+      '45':
+        material: PURPUR_PILLAR
+        buy: 3
+        sell: 1.5

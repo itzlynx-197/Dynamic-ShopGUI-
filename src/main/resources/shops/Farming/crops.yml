@@ -1,0 +1,56 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: WHEAT
+        buy: 1
+        sell: 0.5
+      '2':
+        material: CARROT
+        buy: 1
+        sell: 0.5
+      '3':
+        material: POTATO
+        buy: 1
+        sell: 0.5
+      '4':
+        material: BEETROOT
+        buy: 1
+        sell: 0.5
+      '5':
+        material: MELON
+        buy: 2
+        sell: 1
+      '6':
+        material: PUMPKIN
+        buy: 2
+        sell: 1
+      '7':
+        material: SUGAR_CANE
+        buy: 1
+        sell: 0.5
+      '8':
+        material: CACTUS
+        buy: 1
+        sell: 0.5
+      '9':
+        material: NETHER_WART
+        buy: 2
+        sell: 1
+      '10':
+        material: COCOA_BEANS
+        buy: 2
+        sell: 1
+      '11':
+        material: BAMBOO
+        buy: 1
+        sell: 0.5
+      '12':
+        material: SWEET_BERRIES
+        buy: 1.5
+        sell: 0.75
+      '13':
+        material: GLOW_BERRIES
+        buy: 2
+        sell: 1

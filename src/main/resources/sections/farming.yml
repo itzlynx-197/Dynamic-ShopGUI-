@@ -1,0 +1,6 @@
+enable: true
+slot: 4
+title: "&a&lFarming"
+item:
+  material: WHEAT
+  name: "&a&lFarming"

@@ -1,0 +1,7 @@
+enable: true
+slot: 3
+title: "&5&lEnchantment Books"
+item:
+  material: ENCHANTED_BOOK
+  name: "&5&lEnchantment Books"
+sub-section: true

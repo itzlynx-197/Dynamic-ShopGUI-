@@ -1,0 +1,173 @@
+pages:
+  page1:
+    gui-rows: 4
+    items:
+      '1':
+        material: CHEST
+        buy: 10
+        sell: 5
+      '2':
+        material: TRAPPED_CHEST
+        buy: 15
+        sell: 7.5
+      '3':
+        material: BARREL
+        buy: 10
+        sell: 5
+      '4':
+        material: SHULKER_BOX
+        buy: 50
+        sell: 25
+      '5':
+        material: WHITE_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '6':
+        material: ORANGE_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '7':
+        material: MAGENTA_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '8':
+        material: LIGHT_BLUE_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '9':
+        material: YELLOW_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '10':
+        material: LIME_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '11':
+        material: PINK_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '12':
+        material: GRAY_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '13':
+        material: LIGHT_GRAY_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '14':
+        material: CYAN_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '15':
+        material: PURPLE_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '16':
+        material: BLUE_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '17':
+        material: BROWN_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '18':
+        material: GREEN_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '19':
+        material: RED_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '20':
+        material: BLACK_SHULKER_BOX
+        buy: 55
+        sell: 27.5
+      '21':
+        material: ENDER_CHEST
+        buy: 100
+        sell: 50
+      '22':
+        material: BUNDLE
+        buy: 20
+        sell: 10
+      '23':
+        material: MINECART_WITH_CHEST
+        buy: 50
+        sell: 25
+      '24':
+        material: MINECART_WITH_HOPPER
+        buy: 50
+        sell: 25
+      '25':
+        material: HOPPER
+        buy: 30
+        sell: 15
+      '26':
+        material: DROPPER
+        buy: 15
+        sell: 7.5
+      '27':
+        material: DISPENSER
+        buy: 20
+        sell: 10
+      '28':
+        material: OBSERVER
+        buy: 20
+        sell: 10
+      '29':
+        material: COMPARATOR
+        buy: 15
+        sell: 7.5
+      '30':
+        material: REPEATER
+        buy: 15
+        sell: 7.5
+      '31':
+        material: ACACIA_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '32':
+        material: BIRCH_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '33':
+        material: BLAST_FURNACE
+        buy: 2
+        sell: 1
+      '34':
+        material: CHERRY_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '35':
+        material: COMPOSTER
+        buy: 2
+        sell: 1
+      '36':
+        material: DARK_OAK_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '37':
+        material: FURNACE
+        buy: 2
+        sell: 1
+      '38':
+        material: JUNGLE_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '39':
+        material: MANGROVE_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '40':
+        material: OAK_CHEST_BOAT
+        buy: 10
+        sell: 5
+      '41':
+        material: SMOKER
+        buy: 2
+        sell: 1
+      '42':
+        material: SPRUCE_CHEST_BOAT
+        buy: 10
+        sell: 5
+

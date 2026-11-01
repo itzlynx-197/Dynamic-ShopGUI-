@@ -1,0 +1,6 @@
+enable: true
+slot: 1
+title: "&d&lDecorative"
+item:
+  material: FLOWER_POT
+  name: "&d&lDecorative"sub-section: true

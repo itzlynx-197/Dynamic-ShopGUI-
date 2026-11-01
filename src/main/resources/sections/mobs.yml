@@ -1,0 +1,6 @@
+enable: true
+slot: 6
+title: "&2&lMobs"
+item:
+  material: ZOMBIE_HEAD
+  name: "&2&lMobs"

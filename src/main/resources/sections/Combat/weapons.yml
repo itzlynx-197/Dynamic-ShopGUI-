@@ -1,0 +1,6 @@
+enable: true
+slot: 2
+title: "&c&lWeapons"
+item:
+  material: DIAMOND_SWORD
+  name: "&c&lWeapons"sub-section: true

@@ -1,0 +1,148 @@
+pages:
+  page1:
+    gui-rows: 6
+    items:
+      '1':
+        material: POTION
+        potiontypes:
+          - regeneration
+        buy: 15
+        sell: 7.5
+      '2':
+        material: POTION
+        potiontypes:
+          - swiftness
+        buy: 15
+        sell: 7.5
+      '3':
+        material: POTION
+        potiontypes:
+          - fire_resistance
+        buy: 20
+        sell: 10
+      '4':
+        material: POTION
+        potiontypes:
+          - healing
+        buy: 15
+        sell: 7.5
+      '5':
+        material: POTION
+        potiontypes:
+          - night_vision
+        buy: 15
+        sell: 7.5
+      '6':
+        material: POTION
+        potiontypes:
+          - strength
+        buy: 20
+        sell: 10
+      '7':
+        material: POTION
+        potiontypes:
+          - leaping
+        buy: 15
+        sell: 7.5
+      '8':
+        material: POTION
+        potiontypes:
+          - water_breathing
+        buy: 15
+        sell: 7.5
+      '9':
+        material: POTION
+        potiontypes:
+          - invisibility
+        buy: 20
+        sell: 10
+      '10':
+        material: POTION
+        potiontypes:
+          - slow_falling
+        buy: 15
+        sell: 7.5
+      '11':
+        material: POTION
+        potiontypes:
+          - turtle_master
+        buy: 20
+        sell: 10
+      '12':
+        material: POTION
+        potiontypes:
+          - poison
+        buy: 15
+        sell: 7.5
+      '13':
+        material: POTION
+        potiontypes:
+          - weakness
+        buy: 15
+        sell: 7.5
+      '14':
+        material: POTION
+        potiontypes:
+          - harming
+        buy: 15
+        sell: 7.5
+      '15':
+        material: POTION
+        potiontypes:
+          - slowness
+        buy: 15
+        sell: 7.5
+      '16':
+        material: SPLASH_POTION
+        potiontypes:
+          - regeneration
+        buy: 20
+        sell: 10
+      '17':
+        material: SPLASH_POTION
+        potiontypes:
+          - swiftness
+        buy: 20
+        sell: 10
+      '18':
+        material: SPLASH_POTION
+        potiontypes:
+          - fire_resistance
+        buy: 25
+        sell: 12.5
+      '19':
+        material: SPLASH_POTION
+        potiontypes:
+          - healing
+        buy: 20
+        sell: 10
+      '20':
+        material: SPLASH_POTION
+        potiontypes:
+          - strength
+        buy: 25
+        sell: 12.5
+      '21':
+        material: LINGERING_POTION
+        potiontypes:
+          - regeneration
+        buy: 25
+        sell: 12.5
+      '22':
+        material: LINGERING_POTION
+        potiontypes:
+          - swiftness
+        buy: 25
+        sell: 12.5
+      '23':
+        material: LINGERING_POTION
+        potiontypes:
+          - fire_resistance
+        buy: 30
+        sell: 15
+      '24':
+        material: LINGERING_POTION
+        potiontypes:
+          - strength
+        buy: 30
+        sell: 15

@@ -1,0 +1,64 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: WOODEN_SWORD
+        buy: 5
+        sell: 2.5
+      '2':
+        material: STONE_SWORD
+        buy: 10
+        sell: 5
+      '3':
+        material: IRON_SWORD
+        buy: 50
+        sell: 25
+      '4':
+        material: GOLDEN_SWORD
+        buy: 75
+        sell: 37.5
+      '5':
+        material: DIAMOND_SWORD
+        buy: 500
+        sell: 250
+      '6':
+        material: NETHERITE_SWORD
+        buy: 1500
+        sell: 750
+      '7':
+        material: BOW
+        buy: 50
+        sell: 25
+      '8':
+        material: CROSSBOW
+        buy: 75
+        sell: 37.5
+      '9':
+        material: TRIDENT
+        buy: 1000
+        sell: 500
+      '10':
+        material: SHIELD
+        buy: 50
+        sell: 25
+      '11':
+        material: ARROW
+        buy: 1
+        sell: 0.5
+      '12':
+        material: SPECTRAL_ARROW
+        buy: 2
+        sell: 1
+      '13':
+        material: TIPPED_ARROW
+        buy: 3
+        sell: 1.5
+      '14':
+        material: MACE
+        buy: 2000
+        sell: 1000
+      '15':
+        material: WIND_CHARGE
+        buy: 5
+        sell: 2.5

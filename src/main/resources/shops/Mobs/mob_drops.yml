@@ -1,0 +1,84 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: ROTTEN_FLESH
+        buy: 1
+        sell: 0.5
+      '2':
+        material: BONE
+        buy: 1
+        sell: 0.5
+      '3':
+        material: STRING
+        buy: 1.5
+        sell: 0.75
+      '4':
+        material: SPIDER_EYE
+        buy: 2
+        sell: 1
+      '5':
+        material: GUNPOWDER
+        buy: 3
+        sell: 1.5
+      '6':
+        material: ENDER_PEARL
+        buy: 10
+        sell: 5
+      '7':
+        material: BLAZE_ROD
+        buy: 8
+        sell: 4
+      '8':
+        material: GHAST_TEAR
+        buy: 15
+        sell: 7.5
+      '9':
+        material: SLIME_BALL
+        buy: 5
+        sell: 2.5
+      '10':
+        material: MAGMA_CREAM
+        buy: 6
+        sell: 3
+      '11':
+        material: PHANTOM_MEMBRANE
+        buy: 8
+        sell: 4
+      '12':
+        material: SHULKER_SHELL
+        buy: 20
+        sell: 10
+      '13':
+        material: NETHER_STAR
+        buy: 50
+        sell: 25
+      '14':
+        material: LEATHER
+        buy: 2
+        sell: 1
+      '15':
+        material: FEATHER
+        buy: 1
+        sell: 0.5
+      '16':
+        material: INK_SAC
+        buy: 2
+        sell: 1
+      '17':
+        material: GLOW_INK_SAC
+        buy: 3
+        sell: 1.5
+      '18':
+        material: HONEYCOMB
+        buy: 3
+        sell: 1.5
+      '19':
+        material: SCUTE
+        buy: 5
+        sell: 2.5
+      '20':
+        material: ARMADILLO_SCUTE
+        buy: 5
+        sell: 2.5

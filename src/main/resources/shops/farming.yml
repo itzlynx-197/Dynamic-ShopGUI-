@@ -1,0 +1,191 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: WHEAT
+        section: crops
+        displayname: "&a&lCrops"
+        slot: 11
+      '2':
+        material: BREAD
+        section: food
+        displayname: "&6&lFood"
+        slot: 13
+      '3':
+        material: BAMBOO_CHEST_RAFT
+        buy: 10
+        sell: 5
+      '4':
+        material: BAMBOO_DOOR
+        buy: 3
+        sell: 1.5
+      '5':
+        material: BAMBOO_FENCE
+        buy: 2
+        sell: 1
+      '6':
+        material: BAMBOO_FENCE_GATE
+        buy: 2
+        sell: 1
+      '7':
+        material: BAMBOO_HANGING_SIGN
+        buy: 2
+        sell: 1
+      '8':
+        material: BAMBOO_MOSAIC
+        buy: 2
+        sell: 1
+      '9':
+        material: BAMBOO_MOSAIC_SLAB
+        buy: 1.5
+        sell: 0.75
+      '10':
+        material: BAMBOO_MOSAIC_STAIRS
+        buy: 1.5
+        sell: 0.75
+      '11':
+        material: BAMBOO_PLANKS
+        buy: 4
+        sell: 2
+      '12':
+        material: BAMBOO_RAFT
+        buy: 10
+        sell: 5
+      '13':
+        material: BAMBOO_SIGN
+        buy: 2
+        sell: 1
+      '14':
+        material: BAMBOO_SLAB
+        buy: 1.5
+        sell: 0.75
+      '15':
+        material: BAMBOO_STAIRS
+        buy: 1.5
+        sell: 0.75
+      '16':
+        material: BAMBOO_TRAPDOOR
+        buy: 3
+        sell: 1.5
+      '17':
+        material: BEEF
+        buy: 2
+        sell: 1
+      '18':
+        material: BEETROOT_SEEDS
+        buy: 0.5
+        sell: 0.25
+      '19':
+        material: BROWN_MUSHROOM
+        buy: 2
+        sell: 1
+      '20':
+        material: BROWN_MUSHROOM_BLOCK
+        buy: 2
+        sell: 1
+      '21':
+        material: CAKE
+        buy: 2
+        sell: 1
+      '22':
+        material: CARROT_ON_A_STICK
+        buy: 2
+        sell: 1
+      '23':
+        material: CARVED_PUMPKIN
+        buy: 2
+        sell: 1
+      '24':
+        material: CHICKEN
+        buy: 2
+        sell: 1
+      '25':
+        material: COD
+        buy: 2
+        sell: 1
+      '26':
+        material: COD_BUCKET
+        buy: 5
+        sell: 2.5
+      '27':
+        material: COOKIE
+        buy: 2
+        sell: 1
+      '28':
+        material: MELON_SEEDS
+        buy: 0.5
+        sell: 0.25
+      '29':
+        material: MELON_SLICE
+        buy: 2
+        sell: 1
+      '30':
+        material: MUSHROOM_STEM
+        buy: 2
+        sell: 1
+      '31':
+        material: MUTTON
+        buy: 2
+        sell: 1
+      '32':
+        material: NETHER_WART_BLOCK
+        buy: 3
+        sell: 1.5
+      '33':
+        material: POISONOUS_POTATO
+        buy: 2
+        sell: 1
+      '34':
+        material: PORKCHOP
+        buy: 2
+        sell: 1
+      '35':
+        material: PUFFERFISH
+        buy: 2
+        sell: 1
+      '36':
+        material: PUFFERFISH_BUCKET
+        buy: 5
+        sell: 2.5
+      '37':
+        material: PUMPKIN_SEEDS
+        buy: 0.5
+        sell: 0.25
+      '38':
+        material: RABBIT
+        buy: 2
+        sell: 1
+      '39':
+        material: RABBIT_HIDE
+        buy: 2
+        sell: 1
+      '40':
+        material: RED_MUSHROOM
+        buy: 2
+        sell: 1
+      '41':
+        material: RED_MUSHROOM_BLOCK
+        buy: 2
+        sell: 1
+      '42':
+        material: SALMON
+        buy: 2
+        sell: 1
+      '43':
+        material: SALMON_BUCKET
+        buy: 5
+        sell: 2.5
+      '44':
+        material: TROPICAL_FISH
+        buy: 2
+        sell: 1
+      '45':
+        material: TROPICAL_FISH_BUCKET
+        buy: 5
+        sell: 2.5
+      '46':
+        material: WHEAT_SEEDS
+        buy: 0.5
+        sell: 0.25
+

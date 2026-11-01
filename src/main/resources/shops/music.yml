@@ -1,0 +1,85 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: MUSIC_DISC_13
+        buy: 50
+        sell: 25
+      '2':
+        material: MUSIC_DISC_CAT
+        buy: 50
+        sell: 25
+      '3':
+        material: MUSIC_DISC_BLOCKS
+        buy: 50
+        sell: 25
+      '4':
+        material: MUSIC_DISC_CHIRP
+        buy: 50
+        sell: 25
+      '5':
+        material: MUSIC_DISC_FAR
+        buy: 50
+        sell: 25
+      '6':
+        material: MUSIC_DISC_MALL
+        buy: 50
+        sell: 25
+      '7':
+        material: MUSIC_DISC_MELLOHI
+        buy: 50
+        sell: 25
+      '8':
+        material: MUSIC_DISC_STAL
+        buy: 50
+        sell: 25
+      '9':
+        material: MUSIC_DISC_STRAD
+        buy: 50
+        sell: 25
+      '10':
+        material: MUSIC_DISC_WARD
+        buy: 50
+        sell: 25
+      '11':
+        material: MUSIC_DISC_11
+        buy: 50
+        sell: 25
+      '12':
+        material: MUSIC_DISC_WAIT
+        buy: 50
+        sell: 25
+      '13':
+        material: MUSIC_DISC_OTHERSIDE
+        buy: 75
+        sell: 37.5
+      '14':
+        material: MUSIC_DISC_RELIC
+        buy: 75
+        sell: 37.5
+      '15':
+        material: MUSIC_DISC_5
+        buy: 75
+        sell: 37.5
+      '16':
+        material: MUSIC_DISC_PIGSTEP
+        buy: 100
+        sell: 50
+      '17':
+        material: JUKEBOX
+        buy: 50
+        sell: 25
+      '18':
+        material: MUSIC_DISC_CREATOR
+        buy: 50
+        sell: 25
+      '19':
+        material: MUSIC_DISC_CREATOR_MUSIC_BOX
+        buy: 50
+        sell: 25
+      '20':
+        material: MUSIC_DISC_PRECIPICE
+        buy: 50
+        sell: 25
+

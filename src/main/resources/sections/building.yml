@@ -1,0 +1,9 @@
+enable: true
+slot: 1
+title: "&c&lBuilding"
+item:
+  material: BRICKS
+  name: "&c&lBuilding"
+  lore:
+    - "&7Building blocks and materials"
+sub-section: false

@@ -1,0 +1,154 @@
+pages:
+  page1:
+    gui-rows: 3
+    items:
+      '1':
+        material: SPAWNER
+        spawnertype: ZOMBIE
+        buy: 500
+        sell: 250
+      '2':
+        material: SPAWNER
+        spawnertype: SKELETON
+        buy: 500
+        sell: 250
+      '3':
+        material: SPAWNER
+        spawnertype: CREEPER
+        buy: 600
+        sell: 300
+      '4':
+        material: SPAWNER
+        spawnertype: SPIDER
+        buy: 400
+        sell: 200
+      '5':
+        material: SPAWNER
+        spawnertype: ENDERMAN
+        buy: 800
+        sell: 400
+      '6':
+        material: SPAWNER
+        spawnertype: BLAZE
+        buy: 700
+        sell: 350
+      '7':
+        material: SPAWNER
+        spawnertype: WITHER_SKELETON
+        buy: 1000
+        sell: 500
+      '8':
+        material: SPAWNER
+        spawnertype: PIGLIN
+        buy: 600
+        sell: 300
+      '9':
+        material: SPAWNER
+        spawnertype: GHAST
+        buy: 800
+        sell: 400
+      '10':
+        material: SPAWNER
+        spawnertype: SLIME
+        buy: 400
+        sell: 200
+      '11':
+        material: SPAWNER
+        spawnertype: MAGMA_CUBE
+        buy: 500
+        sell: 250
+      '12':
+        material: SPAWNER
+        spawnertype: PHANTOM
+        buy: 600
+        sell: 300
+      '13':
+        material: SPAWNER
+        spawnertype: DROWNED
+        buy: 500
+        sell: 250
+      '14':
+        material: SPAWNER
+        spawnertype: GUARDIAN
+        buy: 700
+        sell: 350
+      '15':
+        material: SPAWNER
+        spawnertype: SHULKER
+        buy: 800
+        sell: 400
+      '16':
+        material: SPAWNER
+        spawnertype: WITCH
+        buy: 600
+        sell: 300
+      '17':
+        material: SPAWNER
+        spawnertype: VINDICATOR
+        buy: 600
+        sell: 300
+      '18':
+        material: SPAWNER
+        spawnertype: PILLAGER
+        buy: 600
+        sell: 300
+      '19':
+        material: SPAWNER
+        spawnertype: RAVAGER
+        buy: 1000
+        sell: 500
+      '20':
+        material: SPAWNER
+        spawnertype: EVOKER
+        buy: 800
+        sell: 400
+      '21':
+        material: SPAWNER
+        spawnertype: VEX
+        buy: 500
+        sell: 250
+      '22':
+        material: SPAWNER
+        spawnertype: ALLAY
+        buy: 600
+        sell: 300
+      '23':
+        material: SPAWNER
+        spawnertype: FROG
+        buy: 400
+        sell: 200
+      '24':
+        material: SPAWNER
+        spawnertype: AXOLOTL
+        buy: 500
+        sell: 250
+      '25':
+        material: SPAWNER
+        spawnertype: GOAT
+        buy: 400
+        sell: 200
+      '26':
+        material: SPAWNER
+        spawnertype: CAMEL
+        buy: 600
+        sell: 300
+      '27':
+        material: SPAWNER
+        spawnertype: SNIFFER
+        buy: 800
+        sell: 400
+      '28':
+        material: SPAWNER
+        spawnertype: ARMADILLO
+        buy: 400
+        sell: 200
+      '29':
+        material: SPAWNER
+        spawnertype: BREEZE
+        buy: 700
+        sell: 350
+      '30':
+        material: SPAWNER
+        spawnertype: BOGGED
+        buy: 500
+        sell: 250

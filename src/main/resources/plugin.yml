@@ -1,0 +1,66 @@
+name: DynamicShopGUI+
+version: "${version}"
+main: com.silicon_studios.dynamic_shopgui_plus.DynamicShopGUIPlus
+description: A dynamic in-game shop GUI plugin
+author: Silicon Studios
+api-version: '1.21'
+folia-supported: true
+softdepend:
+  - Vault
+  - PlaceholderAPI
+  - WorldGuard
+  - Quests
+  - BeautyQuests
+  - BetonQuest
+  - RealisticSeasons
+  - DiscordSRV
+  - floodgate
+  - Geyser-Spigot
+  - ItemsAdder
+  - Oraxen
+  - Nexo
+libraries:
+  - net.kyori:adventure-api:4.20.0
+  - net.kyori:adventure-platform-bukkit:4.4.1
+  - net.kyori:adventure-text-minimessage:4.20.0
+commands:
+  shop:
+    description: Open the shop
+    usage: /shop [section]
+    permission: dynamicshopgui.shop
+  sellall:
+    description: Sell all items
+    usage: /sellall [inventory|hand|item]
+    permission: dynamicshopgui.sellall
+  sellgui:
+    description: Open sell GUI
+    usage: /sellgui
+    permission: dynamicshopgui.sellgui
+  shopreload:
+    description: Reload plugin
+    usage: /shopreload
+    permission: dynamicshopgui.reload
+    aliases: [sreload]
+  shopgive:
+    description: Give a shop item
+    usage: /shopgive <section> <item> [player] [amount]
+    permission: dynamicshopgui.shopgive
+  editshop:
+    description: Edit shop
+    usage: /editshop
+    permission: dynamicshopgui.admin
+  shopmigrate:
+    description: Migrate standalone data to shared MySQL
+    usage: /shopmigrate
+    permission: dynamicshopgui.admin
+permissions:
+  dynamicshopgui.shop:
+    default: true
+  dynamicshopgui.sellall:
+    default: true
+  dynamicshopgui.sellgui:
+    default: true
+  dynamicshopgui.reload:
+    default: op
+  dynamicshopgui.admin:
+    default: op
