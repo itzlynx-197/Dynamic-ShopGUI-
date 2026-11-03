@@ -59,10 +59,7 @@ Dynamic ShopGUI+ offers an extensive collection of features for server owners, a
 
 ### 🌐 Network & Compatibility
 
-- Shared MySQL storage for multi-server networks.
-- Synchronization of shop data across backend servers.
 - Folia-compatible implementation.
-- Dedicated proxy companion plugin for Velocity and BungeeCord.
 - Support for multiple Bukkit-based server implementations.
 
 ---
@@ -76,12 +73,8 @@ Dynamic ShopGUI+ offers an extensive collection of features for server owners, a
 | Spigot | ✅ |
 | Bukkit | ✅ |
 | Folia | ✅ |
-| Velocity | Via Proxy companion |
-| BungeeCord | Via Proxy companion |
 | Minecraft | 1.21+ |
 | Java | 21+ |
-
-**Note:** The backend plugin must be installed on each Minecraft backend server. The proxy companion is installed separately on the network's proxy server.
 
 Platform-specific implementations are used where necessary to maintain compatibility.
 
@@ -98,103 +91,6 @@ Platform-specific implementations are used where necessary to maintain compatibi
 5. Configure your shop using the generated configuration files.
 
 That's it! Your shop is ready to configure.
-
-### 2. Proxy Network (Velocity / BungeeCord)
-
-For a multi-server network:
-
-1. Install Dynamic ShopGUI+ on every backend server.
-2. Install Dynamic ShopGUI+ Proxy on your Velocity or BungeeCord proxy.
-3. Configure the proxy companion as documented in its repository.
-4. Restart the proxy and backend servers.
-5. Verify that proxy commands are correctly forwarded.
-
-The proxy companion forwards supported commands to the backend server the player is currently connected to. The backend plugin handles the actual shop functionality.
-
-### 3. Shared Shop Data Across Multiple Backends
-
-If you want all backend servers to use the same shop configuration and data:
-
-1. Set up a reachable MySQL database.
-2. Create a dedicated database and user for Dynamic ShopGUI+.
-3. Configure the same MySQL connection details on every participating backend.
-4. Enable `proxy: true` in the backend configuration.
-5. Configure the shared storage settings.
-6. Restart the backend servers.
-
-All participating backends will connect directly to the same MySQL database.
-
-**Important:** Shared storage is optional. A proxy network can use independent shop configurations on each backend without enabling shared MySQL storage.
-
----
-
-## 🔌 Related Plugin: Dynamic ShopGUI+ Proxy
-
-Dynamic ShopGUI+ Proxy is the companion plugin for proxy-based Minecraft networks.
-
-It provides lightweight command forwarding between the proxy and backend instances.
-
-### How it works
-
-1. A player executes a supported shop command on the proxy.
-2. The proxy companion identifies the backend server the player is connected to.
-3. The command is forwarded through plugin messaging.
-4. The backend plugin processes the command.
-5. The backend handles the requested functionality normally.
-
-### Supported commands
-
-- `/shop`
-- `/sellall`
-- `/sellgui`
-- Supported administrative commands
-
-### When do you need it?
-
-| Setup | Backend Plugin | Proxy Plugin | Shared MySQL |
-|---|---|---|---|
-| Single server | Required | Not needed | Not needed |
-| Proxy network, independent shops | Required on each backend | Required | Not needed |
-| Proxy network, shared shops | Required on each backend | Required | Required |
-
-The proxy companion does not host or manage the shared database. Each backend connects directly to MySQL when shared storage is enabled.
-
-**Repository:** Dynamic ShopGUI+ Proxy (separate project)
-
----
-
-## 🗄️ Shared MySQL Storage
-
-Dynamic ShopGUI+ optionally supports centralized shop storage for multi-server networks.
-
-When enabled, multiple backend servers can use the same shop data instead of maintaining independent configurations.
-
-### How it works
-
-- A central MySQL database stores shared shop data.
-- Every participating backend connects directly to that database.
-- Each backend maintains its own in-memory cache.
-- Changes are synchronized between backend instances.
-- No backend needs to be designated as the primary server.
-
-### Database hosting
-
-The database can be hosted:
-
-- On an existing Minecraft server machine.
-- On a separate VPS.
-- Through an external MySQL hosting provider.
-
-The database host does not need to be the proxy server.
-
-### Storage modes
-
-| Mode | Behaviour |
-|---|---|
-| Standalone (`proxy: false`) | Existing independent storage behaviour |
-| Shared (`proxy: true`) | Centralized MySQL storage |
-
-Shared storage is disabled by default and does not affect standalone installations.
 
 ---
 
@@ -240,7 +136,6 @@ Optional integrations are detected when available. You do not need to install ev
 | `/shopreload` | `sreload` | Reloads plugin configuration and shops | `dynamicshopgui.reload` |
 | `/shopgive` | — | Gives a shop item to a player | `dynamicshopgui.shopgive` |
 | `/editshop` | `eshop` | Opens the in-game shop editor | `dynamicshopgui.admin` |
-| `/shopmigrate` | — | Migrates standalone data to shared MySQL | `dynamicshopgui.admin` |
 
 ---
 
@@ -264,7 +159,7 @@ Optional integrations are detected when available. You do not need to install ev
 |---|---|---|
 | `dynamicshopgui.reload` | `op` | Reload plugin configuration |
 | `dynamicshopgui.shopgive` | `op` | Give shop items |
-| `dynamicshopgui.admin` | `op` | Access administrative functionality and migration |
+| `dynamicshopgui.admin` | `op` | Access administrative functionality |
 | `dynamicshopgui.bypassgamemode` | `op` | Bypass banned gamemode restrictions |
 
 ### Advanced Permissions
