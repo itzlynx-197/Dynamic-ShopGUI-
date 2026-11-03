@@ -1,6 +1,0 @@
-enable: true
-slot: 1
-title: "&5&lEnchanting"
-item:
-  material: ENCHANTING_TABLE
-  name: "&5&lEnchanting"sub-section: true

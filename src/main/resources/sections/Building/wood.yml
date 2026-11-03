@@ -1,8 +1,0 @@
-enable: true
-slot: 1
-title: "&6&lWood"
-item:
-  material: OAK_LOG
-  name: "&6&lWood"
-  lore:
-    - "&7Various wood types"sub-section: true

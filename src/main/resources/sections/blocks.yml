@@ -1,6 +1,0 @@
-enable: true
-slot: 12
-title: "&7&lBlocks"
-item:
-  material: BRICKS
-  name: "&7&lBlocks"

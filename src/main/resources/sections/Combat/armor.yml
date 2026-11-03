@@ -1,6 +1,0 @@
-enable: true
-slot: 3
-title: "&9&lArmor"
-item:
-  material: DIAMOND_CHESTPLATE
-  name: "&9&lArmor"sub-section: true

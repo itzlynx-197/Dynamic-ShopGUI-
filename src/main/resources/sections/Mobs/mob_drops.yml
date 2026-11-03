@@ -1,6 +1,0 @@
-enable: true
-slot: 1
-title: "&2&lMob Drops"
-item:
-  material: ROTTEN_FLESH
-  name: "&2&lMob Drops"sub-section: true

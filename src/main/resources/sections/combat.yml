@@ -1,8 +1,0 @@
-enable: true
-slot: 2
-title: "&c&lCombat"
-item:
-  material: DIAMOND_SWORD
-  name: "&c&lCombat"
-  lore:
-    - "&7Weapons, armor and tools"

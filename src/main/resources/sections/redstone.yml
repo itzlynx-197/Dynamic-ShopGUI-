@@ -1,6 +1,0 @@
-enable: true
-slot: 11
-title: "&c&lRedstone"
-item:
-  material: REDSTONE
-  name: "&c&lRedstone"

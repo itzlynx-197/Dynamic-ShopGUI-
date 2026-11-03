@@ -1,6 +1,0 @@
-enable: true
-slot: 3
-title: "&c&lSpawners"
-item:
-  material: SPAWNER
-  name: "&c&lSpawners"sub-section: true

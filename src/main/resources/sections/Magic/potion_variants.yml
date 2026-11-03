@@ -1,7 +1,0 @@
-enable: true
-slot: 4
-title: "&d&lPotion Variants"
-item:
-  material: POTION
-  name: "&d&lPotion Variants"
-sub-section: true

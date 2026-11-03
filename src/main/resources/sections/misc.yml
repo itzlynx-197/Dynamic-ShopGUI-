@@ -1,6 +1,0 @@
-enable: true
-slot: 10
-title: "&7&lMisc"
-item:
-  material: NAME_TAG
-  name: "&7&lMisc"

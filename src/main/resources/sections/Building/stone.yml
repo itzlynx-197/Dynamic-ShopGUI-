@@ -1,8 +1,0 @@
-enable: true
-slot: 2
-title: "&7&lStone"
-item:
-  material: STONE
-  name: "&7&lStone"
-  lore:
-    - "&7Stone and brick materials"sub-section: true

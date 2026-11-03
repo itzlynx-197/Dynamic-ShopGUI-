@@ -1,8 +1,0 @@
-enable: true
-slot: 3
-title: "&a&lNatural"
-item:
-  material: GRASS_BLOCK
-  name: "&a&lNatural"
-  lore:
-    - "&7Natural blocks"sub-section: true

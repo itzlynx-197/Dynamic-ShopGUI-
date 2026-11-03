@@ -1,6 +1,0 @@
-enable: true
-slot: 1
-title: "&a&lCrops"
-item:
-  material: WHEAT
-  name: "&a&lCrops"sub-section: true

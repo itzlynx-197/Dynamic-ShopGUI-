@@ -1,6 +1,0 @@
-enable: true
-slot: 7
-title: "&6&lMusic"
-item:
-  material: MUSIC_DISC_CAT
-  name: "&6&lMusic"

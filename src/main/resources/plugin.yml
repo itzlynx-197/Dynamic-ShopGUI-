@@ -1,66 +1,102 @@
-name: DynamicShopPlus
-version: "${version}"
-main: com.silicon_studios.dynamic_shopgui_plus.DynamicShopGUIPlus
-description: A dynamic in-game shop GUI plugin
-author: Silicon Studios
-api-version: '1.21'
+version: 1.0.0
+name: DynamicShopGUIPlus
+main: com.siliconstudios.dynamicshopguiplus.DynamicShopGUIPlus
+api-version: 1.21
+authors: [Silicon Studios]
+description: A powerful, feature-rich and lightweight alternative to premium Minecraft shop plugins.
 folia-supported: true
-softdepend:
-  - Vault
-  - PlaceholderAPI
-  - WorldGuard
-  - Quests
-  - BeautyQuests
-  - BetonQuest
-  - RealisticSeasons
-  - DiscordSRV
-  - floodgate
-  - Geyser-Spigot
-  - ItemsAdder
-  - Oraxen
-  - Nexo
 libraries:
   - net.kyori:adventure-api:4.20.0
   - net.kyori:adventure-platform-bukkit:4.4.1
   - net.kyori:adventure-text-minimessage:4.20.0
-commands:
-  shop:
-    description: Open the shop
-    usage: /shop [section]
-    permission: dynamicshopgui.shop
-  sellall:
-    description: Sell all items
-    usage: /sellall [inventory|hand|item]
-    permission: dynamicshopgui.sellall
-  sellgui:
-    description: Open sell GUI
-    usage: /sellgui
-    permission: dynamicshopgui.sellgui
-  shopreload:
-    description: Reload plugin
-    usage: /shopreload
-    permission: dynamicshopgui.reload
-    aliases: [sreload]
-  shopgive:
-    description: Give a shop item
-    usage: /shopgive <section> <item> [player] [amount]
-    permission: dynamicshopgui.shopgive
-  editshop:
-    description: Edit shop
-    usage: /editshop
-    permission: dynamicshopgui.admin
-  shopmigrate:
-    description: Migrate standalone data to shared MySQL
-    usage: /shopmigrate
-    permission: dynamicshopgui.admin
+  - net.kyori:adventure-text-serializer-gson:4.20.0
+  - net.kyori:adventure-text-serializer-legacy:4.20.0
+softdepend:
+  - Vault
+  - GemsEconomy
+  - PlayerPoints
+  - CoinsEngine
+  - ExcellentEconomy
+  - UltraEconomy
+  - VotingPlugin
+  - zEssentials
+  - VaultUnlocked
+  - openeco
+  - LiteEco
+  - SimpleEconomy
+  - DynastyEconomy
+
+  - Essentials
+  - EssentialsChat
+
+  - SilkSpawners
+  - SilkSpawners_v2
+  - WildStacker
+  - UltimateStacker
+  - RoseStacker
+  - MineableSpawners
+  - SpawnerMeta
+  - SpawnerLegacy
+  - SmartSpawner
+
+  - ViaVersion
+  - ProtocolSupport
+  - floodgate
+  - Geyser-Spigot
+
+  - RealisticSeasons
+  - PlaceholderAPI
+  - DiscordSRV
+  - Quests
+  - BeautyQuests
+  - BetonQuest
+  - WorldGuard
+
+loadbefore:
+  - AutoSellChests
+
 permissions:
-  dynamicshopgui.shop:
+  DynamicShopGUIPlus.shop:
     default: true
-  dynamicshopgui.sellall:
+    description: This permission allows players to use the /shop command
+  DynamicShopGUIPlus.sellall:
     default: true
-  dynamicshopgui.sellgui:
+    description: This permission allows players to use the /sellall command
+  DynamicShopGUIPlus.sellallitem:
     default: true
-  dynamicshopgui.reload:
+    description: This permission allows players to use the /sellall <item> command
+  DynamicShopGUIPlus.sellallhand:
+    default: true
+    description: This permission allows players to use the /sellall hand command
+  DynamicShopGUIPlus.sellgui:
+    default: true
+    description: This permission allows players to open the /sellGUI
+  DynamicShopGUIPlus.reload:
+    description: This permission allows players to use the /sreload command
+  DynamicShopGUIPlus.itemindexes:
+    description: Allows you to see the locations of the shop items inside the shops.yml
+  DynamicShopGUIPlus.notifyUpdate:
+    description: Player's with this permission will be notified for plugin updates when they join the server
+  DynamicShopGUIPlus.eshop.*:
     default: op
-  dynamicshopgui.admin:
+    children:
+      DynamicShopGUIPlus.eshop.additem: true
+      DynamicShopGUIPlus.eshop.edititem: true
+      DynamicShopGUIPlus.eshop.deleteitem: true
+      DynamicShopGUIPlus.eshop.addhanditem: true
+      DynamicShopGUIPlus.eshop.import: true
+      DynamicShopGUIPlus.eshop.migrate: true
+      DynamicShopGUIPlus.eshop.addsection: true
+      DynamicShopGUIPlus.eshop.editsection: true
+      DynamicShopGUIPlus.eshop.deletesection: true
+  DynamicShopGUIPlus.eshop.shopstands.*:
     default: op
+    children:
+      DynamicShopGUIPlus.eshop.shopstands.give: true
+      DynamicShopGUIPlus.eshop.shopstands.destroy: true
+      DynamicShopGUIPlus.eshop.shopstands.browse: true
+      DynamicShopGUIPlus.eshop.shopstands.edit: true
+      DynamicShopGUIPlus.eshop.shopstands.create: true
+  DynamicShopGUIPlus.shopgive:
+    default: op
+    description: Gives access to the /shopgive command

@@ -1,8 +1,0 @@
-enable: true
-slot: 4
-title: "&d&lDecorative"
-item:
-  material: GLASS
-  name: "&d&lDecorative"
-  lore:
-    - "&7Decorative blocks"sub-section: true
