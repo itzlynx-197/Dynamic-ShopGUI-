@@ -207,7 +207,10 @@ implements com.siliconstudios.dynamicshopguiplus.objects.shops.ShopSection {
                 for (int i = 0; i < displayItems.size(); ++i) {
                     String itemLoc = displayItems.get(i);
                     if (itemLoc != null) {
-                        items.put(i, this.displayItems.get(this.section + "." + itemLoc).getShopItem());
+                        DisplayItem displayItem = this.displayItems.get(this.section + "." + itemLoc);
+                        if (displayItem != null) {
+                            items.put(i, displayItem.getShopItem());
+                        }
                     }
                     itemLocs.add(itemLoc);
                 }
